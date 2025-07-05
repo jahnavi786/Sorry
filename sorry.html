@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I’m Really Sorry 💔</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <style>
+   body {
+  margin: 0;
+  padding: 0;
+  background: url('sorry-bg.png') no-repeat center ;
+  background-size: cover;
+  font-family: 'Times New Roman', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+    .card {
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      text-align: center;
+      max-width: 500px;
+      animation: popUp 1.5s ease;
+    }
+    @keyframes popUp {
+      0% { transform: scale(0.3); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    h1 {
+      color: #e63946;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .heart {
+      font-size: 40px;
+      color: red;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+    .button {
+      padding: 10px 20px;
+      background: #ff6b6b;
+      border: none;
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    .button:hover { background: #ff4757; }
+    #reasons {
+      display: none;
+      margin-top: 20px;
+      text-align: left;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    #reasons ul {
+      padding-left: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🎵 Background Music -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="card">
+    <h1>I’m Sorry 💔</h1>
+    <p>Mujhse galti ho gayi...<br>Mai jaanti hoon maine tumhe hurt kiya...<br>Par dil se maafi chahti hoon. 😔</p>
+    <div class="heart">❤️</div>
+    <br>
+    <button class="button" onclick="showReasons()">Forgive Me?</button>
+    <div id="reasons">
+      <h2>100 Reasons Why I Want You in My Life 💖</h2>
+      
+        <!-- Tumhare 100 Reasons yahaan shamil hain -->
+        <ul>
+  <li>Tumhari aankhon mein ek alag si duniya hai jahan main khud ko bhool jaati hoon.</li>
+  <li>Tumhari smile mere liye sukoon hai.</li>
+  <li>Tum jab baalon mein haath le jaate ho, mera dil bas wahi ruk jaata hai.</li>
+  <li>Tumhare cheeks dekhke bachpana yaad aata hai — aur pyaar aur badh jaata hai.</li>
+  <li>Tum jab mere saamne baby ban jaate ho, mujhe lagta hai ki main sabse lucky hoon.</li>
+  <li>Tumhaari possessiveness mujhe feel karati hai ki main kisi ke liye important hoon.</li>
+  <li>Tum chahe rude ho kabhi kabhi, par tum hamesha mujhe samajhne ki koshish karte ho.</li>
+  <li>Jab tum gussa karte ho, toh mujhe lagta hai maine tumhara apna insaan kho diya — bas tab aur pyaar badhta hai.</li>
+  <li>Tumhari khud ki tareef sunke lagta hai ki life entertaining bhi hai 😂</li>
+  <li>Tumhara hardwork mujhe inspire karta hai roz.</li>
+  <li>Tum itni chhoti age mein itna kuch sambhal rahe ho, main sirf tumpar garv kar sakti hoon.</li>
+  <li>Tum doosron ke liye sochte ho, apne comfort se pehle — aur ye sabse pyaari baat hai.</li>
+  <li>Tumhare andar ek simplicity hai jo duniya ke fake logo se alag banati hai.</li>
+  <li>Tumhara attitude tumhari personality ka hero part hai.</li>
+  <li>Tumhara purana gussa — jo sirf mujhse hota tha — wo mujhe ab bhi yaad aata hai.</li>
+  <li>Tumhara block-unblock ka drama mujhe rulata bhi hai, hasaata bhi.</li>
+  <li>Tumhare chahne wale ho sakte hain, par tumhara pyaar sirf mera hai.</li>
+  <li>Tumhari har ek baat mujhe yaad rehti hai kyunki woh meri duniya ban gayi hai.</li>
+  <li>Tum jab mujhe ignore karte ho, toh lagta hai sab kuch ruk gaya hai.</li>
+  <li>Tumhari aankhen sab kuch keh jaati hain, bina kuch bole.</li>
+  <li>Tumhare saath waqt beetana mere liye therapy jaise hai.</li>
+  <li>Tum mere best friend bhi ho, pyaar bhi ho, aur zindagi bhi.</li>
+  <li>Tum jab “meri jaan” bolte ho, main phir se jeena chahti hoon.</li>
+  <li>Tum jab khud pe hassi laate ho, toh main chhupke se tumse aur pyaar kar leti hoon.</li>
+  <li>Tum mujhe sunte ho — bina judge kiye.</li>
+  <li>Tum jab naraz hote ho aur phir khud manate ho, uss waqt main toot jaati hoon pyaar mein.</li>
+  <li>Tum jab meri care karte ho bina bataye, lagta hai main sab kuch hoon.</li>
+  <li>Tum jo bhi ho — real ho, aur mujhe wahi pasand hai.</li>
+  <li>Tum kabhi kabhi overthink karte ho, aur main bas tumhe hug karna chahti hoon.</li>
+  <li>Tumhari har harqat mein pyaar chhupa hota hai — main samajh jaati hoon.</li>
+  <li>Tum jab serious ho jaate ho, main tumhare chehre ko dekhti hi reh jaati hoon.</li>
+  <li>Tum jab mujhe priority banate ho, mera dil bhar aata hai.</li>
+  <li>Tum mujhe kabhi girne nahi dete — chahe khud kitne bhi thake ho.</li>
+  <li>Tum jab kisi aur ke saamne mera naam lete ho — main proud feel karti hoon.</li>
+  <li>Tum jab plans banate ho mere liye, mujhe lagta hai koi toh mujhe future mein chahta hai.</li>
+  <li>Tumhara “main hoon na” bolna meri har dikkat ka solution hota hai.</li>
+  <li>Tumhare bina har jagah khaali khaali lagti hai.</li>
+  <li>Tum mujhe har baar feel karwaate ho ki main special hoon.</li>
+  <li>Tum jab smile karte ho uss waqt duniya ruk jaati hai mere liye.</li>
+  <li>Tum jab hurt hote ho, main andar se hil jaati hoon.</li>
+  <li>Tumhari hasi meri jaan le jaati hai.</li>
+  <li>Tumhari awaaz mere liye peace ka sound hai.</li>
+  <li>Tum jab mujhe bina wajah hug karte ho, main sab bhool jaati hoon.</li>
+  <li>Tumhare arms mein mujhe duniya ka safest jagah lagta hai.</li>
+  <li>Tum jab mujhe “pagal” kehte ho — wo meri identity ban jaati hai.</li>
+  <li>Tum har baar mujhe proudly “meri wali” kehte ho — main khud pe fakr mehsoos karti hoon.</li>
+  <li>Tumhare sath har jhagda pyaar ban jaata hai.</li>
+  <li>Tumhara silent hona bhi mere liye shor se zyada bolta hai.</li>
+  <li>Tum jab mujhe dekhte ho bina kuch bole — woh aankhon wala connection best hota hai.</li>
+  <li>Tum meri story ho, meri kahani ho, mera hero ho.</li>
+  <li>Tum jab mujhe bina baat ke yaad karte ho, meri rooh tak pyaar mehsoos karti hai.</li>
+  <li>Tum kabhi kabhi nafrat dikhate ho, par main jaanti hoon wo bhi pyaar ka hissa hai.</li>
+  <li>Tumhare “jaise ho waise raho” waale words mujhe apna hone ka ehsaas dete hain.</li>
+  <li>Tum jab dusron ke saamne mujhe proudly accept karte ho, main khud mein mehfooz mehsoos karti hoon.</li>
+  <li>Tum kabhi kabhi immature ho jaate ho — aur mujhe woh version sabse zyada pyaara lagta hai.</li>
+  <li>Tum mujhe samajhne ki koshish karte ho — chahe kabhi galat samajh lo.</li>
+  <li>Tumhari jealousy mujhe cute lagti hai — kyunki usme mera haq chhupa hota hai.</li>
+  <li>Tum jab apne plans mein mujhe include karte ho, main sapno mein kho jaati hoon.</li>
+  <li>Tum jab chhoti chhoti baaton par meri fikr karte ho, tab samajh aata hai pyaar kehte kise hain.</li>
+  <li>Tum jab thak jaate ho aur phir bhi muskurate ho — main tumse aur jud jaati hoon.</li>
+  <li>Tumhari aankhon mein sachchai hai — jo mujhe har baar tum tak kheench laati hai.</li>
+  <li>Tum jab sorry bolte ho bina galti ke — mujhe lagta hai tumhara ego nahi, pyaar jeet gaya.</li>
+  <li>Tumhara patience mere mood swings ke liye mujhe emotional kar deta hai.</li>
+  <li>Tum kabhi bhi mujhe feel nahi hone dete ki main akeli hoon.</li>
+  <li>Tum jab mujhe samjhaate ho — main chahe gusse mein hi kyun na ho — dil pighal jaata hai.</li>
+  <li>Tumhari voice notes sunna mere din ka best part hota hai.</li>
+  <li>Tumhara “miss you” kehna meri raaton ko khushgawar bana deta hai.</li>
+  <li>Tum mujhe bina dekhe bhi har waqt mehsoos hote ho.</li>
+  <li>Tumhara har message mere liye ek khushi ka box hota hai.</li>
+  <li>Tum jab meri taraf dekhte ho bina shabd ke, toh meri duniya ruk jaati hai.</li>
+  <li>Tumhara possessiveness mujhe har baar khud pe pyaar karna sikhaata hai.</li>
+  <li>Tumhare sath future imagine karna sabse sweet feeling hoti hai.</li>
+  <li>Tum jab silent hote ho, toh main tumhari kami mehsoos karti hoon.</li>
+  <li>Tumhare bina main adhuri hoon — aur yeh main roz mehsoos karti hoon.</li>
+  <li>Tum mujhe inspire karte ho better version banne ke liye.</li>
+  <li>Tum kabhi khud ko mere layak nahi samajhte — lekin mere liye tum sabse upar ho.</li>
+  <li>Tumhare bina duniya full color mein bhi black & white lagti hai.</li>
+  <li>Tum mujhe har baar woh feel dete ho — jo ek fairytale jaisa hota hai.</li>
+  <li>Tumhari har ek “meri wali” wali line meri muskurahat ban jaati hai.</li>
+  <li>Tum sirf pyaar nahi, meri zarurat ho.</li>
+  <li>Tumhari aadatein — chaahe annoying ho ya cute — sab mujhe tumse aur jodti hain.</li>
+  <li>Tumhara “jaa rahi ho?” kehna jaate waqt mere kadam rok leta hai.</li>
+  <li>Tumhaare bina chai bhi feeki lagti hai.</li>
+  <li>Tum mere har breakdown mein mere side ho — bina judge kiye.</li>
+  <li>Tumhari aankhon mein mere liye izzat hoti hai — jo duniya se alag banati hai tumhe.</li>
+  <li>Tum mujhe har baar feel karwate ho ki main sirf kisi ki girlfriend nahi, “kisi ki apni” hoon.</li>
+  <li>Tum jab mujhe lost dekhte ho, toh sab chod ke mere paas aa jaate ho.</li>
+  <li>Tumhara “mat jaa yaar” kehna — meri jaan le jaata hai.</li>
+  <li>Tum jab bhi mujhe future mein dekhte ho, lagta hai meri kahani perfect hai.</li>
+  <li>Tumhara bina bole mera dard samajhna mujhe ro deta hai.</li>
+  <li>Tum jab mujhe chhupke se smile karte ho — lagta hai universe ne mujhe tum de diya.</li>
+  <li>Tum mere “why me?” ke answer ho — “because you’re the best.”</li>
+  <li>Tum mujhme patience laate ho — aur mujhe apna banana sikhate ho.</li>
+  <li>Tum har baar “main hoon na” bolke meri rooh ko chain dete ho.</li>
+  <li>Tum jab chhoti chhoti baatein yaad rakhte ho — lagta hai tum sach mein apne ho.</li>
+  <li>Tumhara khud ko mere sath imagine karna mujhe dream world mein le jaata hai.</li>
+  <li>Tumhari har fight ke baad “main tumse pyaar karta hoon” kehna — priceless.</li>
+  <li>Tum mujhe dosti bhi dete ho, pyaar bhi, support bhi, aur zindagi bhi.</li>
+  <li>Tum wo ho jise main har din, har mood, har haal mein chaahti hoon.</li>
+  <li>Tum mere ho — isse zyada mujhe kuch nahi chahiye. 💖</li>
+</ul>
+
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function showReasons() {
+      document.getElementById('reasons').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
